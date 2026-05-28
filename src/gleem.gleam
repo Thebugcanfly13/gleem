@@ -1,5 +1,5 @@
-import gleam/io
+import gleem/install
 
 pub fn main() -> Nil {
-  io.println("Hello from gleem!")
+  install.main()
 }
