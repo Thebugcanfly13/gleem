@@ -23,3 +23,5 @@ Further documentation can be found at <https://hexdocs.pm/gleem>.
 ```sh
 gleam run   # Install the binary.
 ```
+
+Copyright (c) 2026 Thebugcanfly13
