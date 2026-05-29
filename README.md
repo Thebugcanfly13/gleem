@@ -7,10 +7,12 @@
 gleam add gleem@1
 ```
 ```gleam
-import gleem
+import gleem/install
 
 pub fn main() -> Nil {
-  // TODO: An example of the project in use
+  install.main()
+
+  // Then run it to install to your system. (Requires ROOT permissions.)
 }
 ```
 
@@ -19,6 +21,5 @@ Further documentation can be found at <https://hexdocs.pm/gleem>.
 ## Development
 
 ```sh
-gleam run   # Run the project
-gleam test  # Run the tests
+gleam run   # Install the binary.
 ```
